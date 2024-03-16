@@ -20,14 +20,13 @@ This project creates a **Spring Boot REST API Application** for Employees along 
 - It demonstrates **REST API Security** where: 
   - User "employee" can access only `getEmployees` API
   - User "admin" can access APIs to `addEmployee` as well as `getEmployees`
-  - **New user creation as `SecurityUser` before authentication by registration**, user could select their role
+  - **New user creation as `SecurityUser` before authentication by registration**, user could select their role there
 - The security login page is a **custom login page** with a `/login API` in the REST Controller
-- User security credentials are stored in the **DB**
-- Connect to `MySQL` database for only Employee data
+- User security credentials are stored in the **MySQL Database**
 
 
 ## Project Structure: Spring Boot + Spring Security + REST API + MySQL + DB Authentication + Custom Login Form + JdbcUserDetails
-<img src="images/8.png" width="40%">
+<img src="images/8.png" width="50%">
 
 ## SecurityConfiguration.java
 ```
@@ -149,19 +148,19 @@ public class SecurityUserController {
 ## DEMO
  The application is be available at [http://localhost:9090/welcome](http://localhost:9090/welcome)
 ### 1. The welcome page is secured, ask for user login, the login page is customized
-<img src="images/1.png" width="80%">
+<img src="images/1.png" width="90%">
 
 ### 2. Registration, able to select user role
 <img src="images/2.png" width="50%">
 
 ### 3. Login as the new user
-<img src="images/3.png" width="50%">
+<img src="images/3.png" width="90%">
 
 ### 4. The new user is an "admin", so it has access to addEmployee 
 <img src="images/4.png" width="50%">
 
 ### 5. Also able to getEmployees
-<img src="images/5.png" width="80%">
+<img src="images/5.png" width="50%">
 
 ### 6. See the security user is added to "users" table in DB
 <img src="images/6.png" width="60%">
