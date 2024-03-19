@@ -147,7 +147,7 @@ public class SecurityUserController {
 
 ## DEMO
  The application is be available at [http://localhost:9090/welcome](http://localhost:9090/welcome)
-### 1. The welcome page is secured, ask for user login, the login page is customized
+### 1. The welcome page is secured, ask for user login, and the login page is customized
 <img src="images/1.png" width="90%">
 
 ### 2. Registration, able to select user role
