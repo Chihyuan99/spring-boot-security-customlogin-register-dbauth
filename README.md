@@ -1,6 +1,6 @@
 # spring-boot-security-customlogin-register-dbauth
 
-This project creates a **Spring Boot REST API Application** for Employees along with **Custom Login Web Page**. Allow **User Registration** via UI and add the created security users to DB. And we authenticate users and roles against **Database Tables** instead of in memory configuration.
+This project creates a **Spring Boot REST API Application** for Employees along with **Custom Login Web Page**. Allow **User Registration** via UI and add the created security users to DataBase. And we authenticate users and roles against **Database Tables** instead of in memory configuration.
 
 ## Tools and Technologies Used
 
