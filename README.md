@@ -10,7 +10,7 @@ This project creates a **Spring Boot REST API Application** for Employees along 
 -   Spring Boot Starter JDBC 3.2.3
 -   Java SE 17
 -   Maven 3.9
--   Eclipse Spring Tool Suite4 (STS)
+-   Eclipse Spring Tool Suite 4 (STS)
 -   MySQL 8.x
 -   JSTL 3.0
 -   Tomcat 10.x
