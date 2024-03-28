@@ -17,7 +17,7 @@ This project creates a **Spring Boot REST API Application** for Employees along 
 
 ## About the Application
 - Spring Boot REST API for Employees Create & Retrieve operations
-- It demonstrates **REST API Security** where: 
+- It demonstrates **REST API Security** where:
   - User `employee` can access only `getEmployees` API
   - User `admin` can access APIs to `addEmployee` as well as `getEmployees`
   - **New user creation as `SecurityUser` before authentication by registration**, user could select their role there
