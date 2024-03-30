@@ -13,7 +13,7 @@ This project creates a **Spring Boot REST API Application** for Employees along 
 -   Eclipse Spring Tool Suite 4 (STS)
 -   MySQL 8.x
 -   JSTL 3.0
--   Tomcat 10.x
+-   Tomcat 10.x 
 
 ## About the Application
 - Spring Boot REST API for Employees Create & Retrieve operations
